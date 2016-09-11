@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Allerta);
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Allerta', sans-serif; 
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover {
+     color: inherit; 
+     text-decoration:none; 
+}
+
+div.hidden {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #e3e1df;
+    padding: 5 10 5 10px;
+}
+
+li:hover {
+    border-left: 1px solid #584559;
+    margin-left: -1px;
+    border-right: 1px solid #584559;
+    margin-right: -1px;
+}
+
+#toppy {
+    background-color: #F5F5F5;
+    height: 2em;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+
+.title {
+    position: fixed;
+    left: 0;
+    margin: 5px;
+    color: #584559;
+}
+
+.port {
+    position: fixed;
+    right: 0;
+    margin: 5px;
+    color: #584559 !important;
+    text-decoration: none !important;
+}
+
+.port:hover {
+    cursor: pointer;
+    cursor: hand;
+}
+
+#centbox {
+    overflow: auto;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: table;
+    text-align: center;
+}
+
+.butoni {
+    height: 3em;
+    width: 12em;
+}
+
+#randy {
+    background-color: #584559;
+    color: #F5F5F5;
+    border: none;
+    padding: 0px 15px 0px 15px;
+}
+
+#randy:active {
+    background-color: #473747;
+    color: #F5F5F5 !important;
+}
+
+
+#searchy {
+    text-align: center;
+    border: solid;
+    border-color: #584559 !important;
+    border-width: 0.2em;
+    padding: 10px;
+}
+
+
+#resultati {
+    margin-top: 3.5em;
+    width: 50%;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#output {
+    position:absolute;
+    width:100%; 
+    margin-left: -20px;
+}
+
+#aligner {
+  clear: both;
+}
+
+@media screen and (max-width: 680px) {
+    #resultati {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #resultati {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    #resultati {
+        margin-top: 4.5em;
+    }
+}
